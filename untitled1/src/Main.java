@@ -30,7 +30,7 @@ public class Main {
 
 
             if(numQuestions > questions.size()){
-                System.out.println("Questions stored are not enough. Pick number of questions that is less than " + questions.size());
+                System.out.println("Questions stored are not enough. Pick number of questions that is less than or equal to " + questions.size());
                 numQuestions = scanner.nextInt();
             }
             if(numQuestions <= questions.size()){

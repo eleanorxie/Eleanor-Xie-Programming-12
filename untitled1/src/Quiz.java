@@ -3,21 +3,17 @@ import java.util.Scanner;
 
 public class Quiz{
     private ArrayList<Question> questions = new ArrayList<>();
-
-    public Quiz(ArrayList<Question> questions){
+    public Quiz(ArrayList<Question> questions) {
         this.questions = questions;
-
     }
 
     private ArrayList<Question> shuffleList(ArrayList<Question> arrayIn){
-
         ArrayList<Question> newList = arrayIn;
         for (int i = 0; i < arrayIn.size(); i++) {
-
             int index =(int) (Math.random()* arrayIn.size());
             Question temp = newList.get(index);
-            arrayIn.set(index, arrayIn.get(i));
-            arrayIn.set(i, temp);
+            newList.set(index, arrayIn.get(i));
+            newList.set(i, temp);
         }
         return newList;
     }
@@ -30,7 +26,6 @@ public class Quiz{
             String quizQuestion = quizQuestions.get(i).getQuestion();
             System.out.println(quizQuestion);
             String userAns = quizScanner.nextLine();
-
             if(userAns.contains(quizQuestions.get(i).getAnswer())){
                 System.out.println("Correct");
                 numCorrect++;
