@@ -31,7 +31,7 @@ public class Planet {
     }
 
     public void addMoon(Moon addOneMoon){
-
+        moons.add(addOneMoon);
     }
 
     public ArrayList<Moon> getMoons() {
@@ -40,13 +40,15 @@ public class Planet {
 
     public boolean equals (Object obj){
         if(obj instanceof Planet){
-            return(this.designation.equals(((Planet) obj).getDesignation())
-                    && this.orbitTime == ((Planet) obj).getOrbitTime() );
+            Planet aPlanet = (Planet) obj;
+            return(this.designation.equals(aPlanet.getDesignation())
+                    && this.orbitTime == (aPlanet.getOrbitTime()));
         }
-
+        return false;
     }
 
-    public String toString{
-        return
+    public String toString(){
+        return "orbit time: " + orbitTime + "\n"
+                + "designation: " + designation;
     }
 }

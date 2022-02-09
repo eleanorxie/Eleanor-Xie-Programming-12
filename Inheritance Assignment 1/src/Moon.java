@@ -7,7 +7,6 @@ public class Moon {
     private boolean atmosphere;
     private String designation;
 
-
     public Moon (Planet planet, int orbitTime, boolean atmosphere, String designation){
         this.planet = planet;
         this.orbitTime = orbitTime;
@@ -49,14 +48,11 @@ public class Moon {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Moon moon = (Moon) o;
-        return orbitTime == moon.orbitTime && atmosphere == moon.atmosphere && Objects.equals(planet, moon.planet) && Objects.equals(designation, moon.designation);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(planet, orbitTime, atmosphere, designation);
+        if(o instanceof Moon){
+            Moon aMoon = (Moon) o;
+            return(this.designation.equals(aMoon.getDesignation())
+                    && this.orbitTime == (aMoon.getOrbitTime()));
+        }
+        return false;
     }
 }
