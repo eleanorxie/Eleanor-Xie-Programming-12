@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5930dd7-15db-401c-a52d-1dceb9141c21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inheritance Assignment 1/src/Inheritance Problems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/Inheritance Assignment 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance Assignment 1/Inheritance Assignment 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eleanor-Xie-Programming-12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study Helper/Study Helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Study Helper/src/Study Helper.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,13 @@
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Study Helper" />
+      <recent name="$PROJECT_DIR$/studyHelper/src" />
+      <recent name="$PROJECT_DIR$/studyHelper" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -85,7 +92,7 @@
       <workItem from="1644357031095" duration="2795000" />
       <workItem from="1644361740042" duration="123000" />
       <workItem from="1644443213006" duration="4560000" />
-      <workItem from="1644529374624" duration="2132000" />
+      <workItem from="1644529374624" duration="2826000" />
     </task>
     <servers />
   </component>
