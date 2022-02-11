@@ -1,1 +1,3 @@
-q
+1. The method is not properly overloaded because the return types are not the same.
+
+2. A)

@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5930dd7-15db-401c-a52d-1dceb9141c21" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/Inheritance Assignment 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/src/GasPlanet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/src/Inheritance Problems" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/src/Moon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/src/Planet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance Assignment 1/src/RockPlanet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study Helper/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study Helper/src/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study Helper/src/Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study Helper/src/Study Helper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleanor-Xie-Programming-12/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleanor-Xie-Programming-12/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleanor-Xie-Programming-12/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleanor-Xie-Programming-12/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Eleanor-Xie-Programming-12/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance Assignment 1/GasPlanet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance Assignment 1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance Assignment 1/Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance Assignment 1/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Inheritance Assignment 1/RockPlanet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled1/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled1/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled1/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled1/Quiz.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c5930dd7-15db-401c-a52d-1dceb9141c21" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +88,7 @@
       <workItem from="1644361740042" duration="123000" />
       <workItem from="1644443213006" duration="4560000" />
       <workItem from="1644529374624" duration="3432000" />
+      <workItem from="1644618163640" duration="49000" />
     </task>
     <servers />
   </component>
