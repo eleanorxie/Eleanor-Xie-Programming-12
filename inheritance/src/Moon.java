@@ -50,6 +50,10 @@ public class Moon {
     public boolean equals(Object o) {
         if(o instanceof Moon){
             Moon aMoon = (Moon) o;
+            if(designation.equals("")||(aMoon.getDesignation().equals(""))){
+                System.out.println("The moon is not defined");
+                return false;
+            }
             return(this.designation.equals(aMoon.getDesignation())
                     && this.orbitTime == (aMoon.getOrbitTime()));
         }

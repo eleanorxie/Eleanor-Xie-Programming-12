@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 
 public class Planet {
-    private ArrayList<Moon> moons = new ArrayList<Moon>();
+    private ArrayList<Moon> moons;
     private int orbitTime;
     private String designation;
 
     public Planet(){
-
+        moons = new ArrayList<Moon>();
+        this.orbitTime = 0;
+        this.designation = "";
     }
 
     public Planet (int orbitT, String desig){
@@ -41,6 +43,10 @@ public class Planet {
     public boolean equals (Object obj){
         if(obj instanceof Planet){
             Planet aPlanet = (Planet) obj;
+            if(designation.equals("")||(aPlanet.getDesignation().equals(""))){
+                System.out.println("The planet is not defined");
+                return false;
+            }
             return(this.designation.equals(aPlanet.getDesignation())
                     && this.orbitTime == (aPlanet.getOrbitTime()));
         }
