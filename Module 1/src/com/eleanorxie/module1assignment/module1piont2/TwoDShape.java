@@ -1,4 +1,4 @@
-package com.eleanorxie.module1assignment.module1point1;
+package com.eleanorxie.module1assignment.module1piont2;
 
 public class TwoDShape {
     double width;
@@ -19,4 +19,7 @@ public class TwoDShape {
         return area;
     }
 
+    public void setHeight(double height) {
+        this.height = height;
+    }
 }
