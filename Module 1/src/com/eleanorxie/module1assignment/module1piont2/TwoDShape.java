@@ -1,6 +1,6 @@
 package com.eleanorxie.module1assignment.module1piont2;
 
-public class TwoDShape {
+public abstract class TwoDShape {
     double width;
     double height;
 
@@ -14,12 +14,21 @@ public class TwoDShape {
         this.height = 0;
     }
 
-    public double getArea() {
-        double area = width * height;
-        return area;
-    }
+    public abstract double getArea();
 
     public void setHeight(double height) {
         this.height = height;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWidth() {
+        return width;
     }
 }

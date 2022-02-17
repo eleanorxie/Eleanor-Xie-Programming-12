@@ -28,6 +28,6 @@ public class Triangle extends TwoDShape {
     }
 
     public double getArea(){
-        return super.getArea() / 2;
+        return (super.getHeight() * super.getWidth() / 2);
     }
 }
