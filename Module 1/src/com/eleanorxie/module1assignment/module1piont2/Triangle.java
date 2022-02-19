@@ -1,5 +1,5 @@
 package com.eleanorxie.module1assignment.module1piont2;
-
+import java.lang.Math;
 
 
 public class Triangle extends TwoDShape {
