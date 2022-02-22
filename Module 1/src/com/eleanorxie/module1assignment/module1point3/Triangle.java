@@ -1,8 +1,7 @@
-package com.eleanorxie.module1assignment.module1piont2;
-import java.lang.Math;
+package com.eleanorxie.module1assignment.module1point3;
 
 
-public class Triangle extends TwoDShape {
+public class Triangle extends TwoDShape implements Rotate {
     private double side1;
     private double side2;
     private double side3;
@@ -37,5 +36,11 @@ public class Triangle extends TwoDShape {
                 "side1=" + side1 +
                 ", side2=" + side2 +
                 ", side3=" + side3 + "Area=" + getArea() + "}";
+    }
+
+
+    @Override
+    public void rotate90() {
+
     }
 }

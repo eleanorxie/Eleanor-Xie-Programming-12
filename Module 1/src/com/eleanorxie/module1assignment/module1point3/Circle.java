@@ -1,7 +1,7 @@
-package com.eleanorxie.module1assignment.module1piont2;
-import java.lang.Math.*;
+package com.eleanorxie.module1assignment.module1point3;
+import com.eleanorxie.module1assignment.module1piont2.TwoDShape;
 
-public class Circle extends TwoDShape{
+public class Circle extends TwoDShape {
     public final double PI = Math.PI;
     private double radius;
 
